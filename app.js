@@ -1,8 +1,14 @@
+// Debes crear un pequeño programa que comience con un valor específico predefinido entre 0 y 10
+// para el número que vas a adivinar (por ejemplo, el 7).
+
 let numeroSorteado = Math.floor(Math.random() * 11);
 console.log(numeroSorteado);
 
 let intentos = 3;
 let numeroIngresado;
+
+// A continuación, el programa te preguntará cuál es el valor que deseas adivinar y, si aciertas, te felicitará.
+// Si te equivocas, te dará 2 intentos más.
 
 while (intentos > 0) {
   numeroIngresado = parseInt(prompt("Adivina el numero del 0 al 10"));
